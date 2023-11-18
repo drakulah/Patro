@@ -1,0 +1,16 @@
+[package]
+name = "nepali"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hyper = "0.14"
+hyper-rustls = "0.24"
+serde_json = "1.0"
+percent-encoding = "2"
+chrono = "0.4.31"
+clap = { version = "4.4.8", features = ["cargo"] }
+scraper = "0.18"
+tokio = { version = "1", features = ["full"] }
