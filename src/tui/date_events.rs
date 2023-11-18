@@ -111,7 +111,7 @@ pub async fn ui(opt: DisplayOption) {
             patro.date.year
           ),
           _ => format!(
-            "Date (Nepali) -> {}, {} {}, {}",
+            "{}, {} {}, {}",
             patro.date.week_day,
             NepaliMonth::from_index(patro.date.month),
             patro.date.day,
