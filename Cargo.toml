@@ -1,7 +1,13 @@
 [package]
-name = "nepali"
+name = "patro"
 version = "0.1.0"
 edition = "2021"
+authors = ["drakulah"]
+description = "A command line tool to view Nepali date, time and upcoming events"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/drakulah/Patro"
+keywords = ["patro", "hamro"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
